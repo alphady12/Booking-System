@@ -15,7 +15,6 @@ const reservations = require('./routes/reservation');
 //const billing = require('./routes/billing');
 const admin = require('./routes/admin');
 
-
 app.use(bodyParser.json());
 
 app.use(customers);
